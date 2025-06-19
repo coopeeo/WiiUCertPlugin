@@ -1,10 +1,10 @@
-name: Build Rosé Plugin for development and checks
+name: Build Certificate Plugin for development and checks
 
 on: push
 
 jobs:
     build-plugin:
-        name: Build Rosé Plugin
+        name: Build Plugin
         runs-on: ubuntu-22.04
         steps:
             - uses: actions/checkout@v2
