@@ -1,6 +1,8 @@
 name: Build Certificate Plugin for development and checks
 
-on: push
+on:
+ push:
+ workflow_dispatch: 
 
 jobs:
     build-plugin:
